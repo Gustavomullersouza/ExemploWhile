@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class DowhileExemplo {
+public class DowhileExemplo{
 
     public static void main(String[] args) {
 
@@ -16,6 +16,6 @@ public class DowhileExemplo {
             System.out.println("0 - Sair ");
             opcao = tantofaz.nextInt();
 
-        }while ()
+        }while ( opcao != 0 );
     }
 }
